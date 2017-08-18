@@ -24,6 +24,8 @@ source 'https://rubygems.org'
  gem 'bootstrap-sass'
  # Used for encrypting User passwords
  gem 'bcrypt'
+ # Figaro to encrypt email and password 
+ gem 'figaro', '1.0'
  # Use SCSS for stylesheets
  gem 'sass-rails', '~> 5.0'
  # Use Uglifier as compressor for JavaScript assets
